@@ -5,6 +5,7 @@
 @import './holding-page/comingsoon.scss';
 @import './animation/fadeanimation.scss';
 @import './footer/footer.scss';
+@import './image-styling/image-styling.scss';
 
 $main-color: white;
 $main-font-color: black;
@@ -21,7 +22,7 @@ body {
   background-color: $main-color;
   overflow-x: hidden;
   margin: 0px;
-  padding-top: 50px;
+  padding-top: 30px;
   opacity: 0;
   transition: opacity 1s ease;
 }
@@ -43,7 +44,7 @@ body.fade-out{
 }
 
 .margins {
-  margin: 20px 60px;
+  margin: 20px 0px;
 }
 
 

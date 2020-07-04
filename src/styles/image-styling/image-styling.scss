@@ -1,0 +1,18 @@
+.top-image {
+  background-image: url("../img/love.jpg");
+  height: calc(100vh - 100px);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  h1 {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    font-weight: lighter;
+    cursor: default;
+  }
+}

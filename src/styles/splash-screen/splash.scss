@@ -1,5 +1,5 @@
 .splash-screen {
-  background-color: pink;
+  background-color: black;
   height: 100vh;
   width: 100vw;
   position: fixed;
@@ -12,11 +12,12 @@
   transition: transform 1s ease;
   span {
     font-size: 7.5vw;
+    color: white;
   }
 }
 
 .splash-screen.is-active {
-  background-color: pink;
+  background-color: black;
   height: 100vh;
   width: 100vw;
   position: fixed;
