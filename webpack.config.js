@@ -62,12 +62,9 @@ module.exports = {
       },
       {
         test: /\.(png|svg|jpg|gif|ico)$/,
-        use: [
-          'file-loader',
-        ],
-        query: {
-          outputPath: './img/',
-          name: '[name].[ext]?[hash]'
+        loader: 'file-loader',
+        options: {
+          name: '[path][name].[ext]'
         }
       },
       {
